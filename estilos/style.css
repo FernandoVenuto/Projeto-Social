@@ -36,13 +36,13 @@ section#telefone{
 }
 
 section#redes-sociais{
+    padding: 0px 10px;
     position: absolute;
     right: 0;
     text-align: center;
     top: 70px;
     width: 80px;
     height: 400px;
-    background-color: red;
 }
 
 img.icon{
@@ -51,11 +51,8 @@ img.icon{
 }
 
 iframe{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 80px;
     width: 269px;
-    height: 480px;
-    overflow-x: hidden;
+    height: 471px;
 }
